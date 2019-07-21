@@ -1,0 +1,10 @@
+#commandsInput {
+	width: 300px;
+	height: 300px;
+}
+
+#consoleWindow {
+	background-color: black;
+	color: green;
+	height: 300px;
+}
