@@ -1,0 +1,3 @@
+https://learn.javascript.ru/testing
+прописать в html:
+<script src="https://js.cx/test/libs.js"></script>
