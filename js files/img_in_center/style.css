@@ -1,0 +1,35 @@
+ul {
+	width: 9999px;
+}
+
+.lower {
+	margin: 1px;
+	display: block;
+	border: 1px solid grey;
+}
+
+.lower:hover {
+	border: 1px solid yellow;
+}
+
+.upper {
+	margin-left: 25px;
+}
+
+li {
+	display: inline-block;
+}
+
+#canv {
+	height: 400px;
+	width: 600px;
+	border-bottom: 1px solid grey;
+}
+
+#gallery {
+	margin: 0px;
+	padding: 0px;
+	height: 540px;
+	width: 600px;
+	border: 1px solid grey;
+}

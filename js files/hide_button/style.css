@@ -1,0 +1,9 @@
+.block {
+	background-color: grey;
+	border: 4px solid black;
+}
+
+.button {
+     width: 30px;
+     height: 25px;
+}
