@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+	padding: 5px;
+}
+
+.block {
+	width: 25px;
+	height: 25px;
+}
+
+.blocked {
+	background-color: red;
+}
+
+.notBlocked {
+	background-color: grey;
+}
+
+.actor {
+	background-color: green;
+}
+
+.goal {
+	background-color: yellow;
+}
