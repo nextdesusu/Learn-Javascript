@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My script</title>
+	<meta charset = "utf-8">
+	<link href = "style.css" rel = "stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+</head>
+<body>
+	<script type="text/template" id="list-users">
+		<table>
+			<th>Пользователи</th>
+			<% usersList.forEach(function(item) { %>
+			<tr>
+				<td><%-item.name%></td>
+				<td><%-item.age%></td>
+			</tr>
+			<% }); %>
+		</table>
+	</script>
+	<script>
+		var tmpl = _.template(document.getElementById('list-users').innerHTML);
+		
+		var users = [
+			{name: "Вася", age: 10},
+			{name: "Петя", age: 15},
+			{name: "Женя", age: 20},
+			{name: "Маша", age: 25},
+			{name: "Даша", age: 30},
+		];
+		
+		var result = tmpl({usersList: users});
+		document.write( result );
+	</script>
+</body>
+</head>
+</html>
