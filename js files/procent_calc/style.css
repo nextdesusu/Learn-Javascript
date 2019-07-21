@@ -1,0 +1,11 @@
+#before div{
+	width: 50px;
+	height: 100px;
+	background-color: red;
+}
+
+#after  div{
+	width: 50px;
+	height: 100px;
+	background-color: green;
+}

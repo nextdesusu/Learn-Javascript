@@ -1,0 +1,21 @@
+.redactable {
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+
+#div0{
+	background-color: red;
+}
+
+#div1{
+	background-color: blue;
+}
+
+#div2{
+	background-color: yellow;
+}
+
+textarea {
+	border: none;
+}

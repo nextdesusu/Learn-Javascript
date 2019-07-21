@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My script</title>
+	<meta charset = "utf-8">
+	<link href = "style.css" rel = "stylesheet">
+</head>
+<body>
+	<p>Калькулятор процентов, из расчёта 12% годовых.</p>
+	<p>Сумма <input id = 'sumInput'></input></p>	
+	<p>Срок в месяцах <select id = 'months'>
+		<option value = "3">3 (минимум)</option>
+		<option value = "6">6 (полгода)</option>
+		<option value = "12">12 (год)</option>
+		<option value = "18">18 (1.5 года)</option>
+		<option value = "24">24 (2 года)</option>
+		<option value = "30">30 (2.5 года)</option>
+		<option value = "36">36 (3 года)</option>
+	</select></p>	
+	<p>С капитализацией <input id = 'capitalization' type = 'checkbox'></input></p>	
+	<table id = "showGraph">
+		<td id = "before">Было:
+			<p>0</p>
+			<div></div>
+		</td>
+		<td id = "after">Станет:
+			<p>0</p>
+			<div></div>
+		</td>
+	</table>
+	<script src = "procent_calc.js"></script>
+</body>
+</head>
+</html>
