@@ -1,0 +1,15 @@
+#slideLine {
+	width: 250px;
+	height: 20px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 3px;
+}
+
+#slider {
+	width: 9px;
+	height: 20px;
+	background-color: blue;
+	position: relative;
+	cursor: pointer;
+}
