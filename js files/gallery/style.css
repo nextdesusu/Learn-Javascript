@@ -1,0 +1,26 @@
+ul {
+	margin-left: -40px;
+	width: 9999px;
+}
+
+img {
+	margin-left: 10px;
+	display: block;
+}
+
+li {
+	display: inline-block;
+}
+
+button {
+	background-color: white;
+	width: 20px;
+    height: 20px;
+}
+
+div {
+	width: 425px;
+	height: 170px;
+	overflow: hidden;
+	border: 1px solid grey;
+}

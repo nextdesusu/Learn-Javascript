@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My script</title>
+	<meta charset = "utf-8">
+	<link href = "style.css" rel = "stylesheet">
+</head>
+<body>
+	<img id = "flyjet" src = "flyjet.jpg"></img>
+	<script>
+		var overgrown = false;
+		flyjet.onclick = function(){
+			this.classList.add('growing');
+		}
+		flyjet.addEventListener('transitionend', function(){
+			this.classList.remove('growing');
+			this.classList.add('normal');
+		});
+	</script>
+</body>
+</head>
+</html>

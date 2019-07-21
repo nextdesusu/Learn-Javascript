@@ -1,0 +1,23 @@
+.CalendarTable {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	text-align: left;
+	border-collapse: collapse;
+	box-shadow: 0 0 0 10px #293133;
+	color: #C5D0E6;
+	border-radius: 7px;
+	text-align: center; 
+}
+
+.CalendarTD {
+	padding: 8px;
+	background: #464451;
+	border-top: 1px solid #C5D0E6;
+}
+.CalendarTR {
+	padding: 8px;
+}
+.CalendarTH{
+	padding: 5px;
+	background: #464451;
+}

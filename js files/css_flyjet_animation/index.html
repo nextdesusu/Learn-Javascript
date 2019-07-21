@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My script</title>
+	<meta charset = "utf-8">
+	<link href = "style.css" rel = "stylesheet">
+</head>
+<body>
+	<img id = "flyjet" src = "flyjet.jpg"></img>
+	<script>
+		var ringed = false;
+		flyjet.onclick = function(){
+			this.classList.add('growing');
+		}
+		flyjet.addEventListener('transitionend', function(){
+			if (!ringed){
+				alert('готово')
+			}
+			ringed = true;
+		});
+	</script>
+</body>
+</head>
+</html>

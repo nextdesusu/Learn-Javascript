@@ -1,0 +1,15 @@
+#flyjet {
+	width: 40px;
+	height: 24px;
+	transition: all 3s;
+}
+
+.normal {
+	width: 400px;
+	height: 240px;
+}
+
+.growing {
+	width: 600px;
+	height: 320px;
+}

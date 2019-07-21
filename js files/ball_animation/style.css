@@ -1,0 +1,10 @@
+#space {
+	width: 500px;
+	height: 250px;
+	border-bottom: 2px solid black;
+}
+
+#ball {
+	top: 0px;
+	position: relative;
+}

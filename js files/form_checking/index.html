@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My script</title>
+	<meta charset = "utf-8">
+	<link href = "style.css" rel = "stylesheet">
+</head>
+<body>
+	<form>
+		<table>
+		<tr>
+			<td>От кого</td>
+			<td>
+			<input name="from" type="text">
+			</td>
+		</tr>
+		<tr>
+			<td>Ваш пароль</td>
+			<td>
+			<input name="password1" type="password">
+			</td>
+		</tr>
+		<tr>
+			<td>Повторите пароль</td>
+			<td>
+			<input name="password2" type="password">
+			</td>
+		</tr>
+		<tr>
+			<td>Куда</td>
+			<td>
+			<select name="to">
+				<option></option>
+				<option value="1">Отдел снабжения</option>
+				<option value="2">Отдел разработки</option>
+				<option value="3">Директору</option>
+			</select>
+			</td>
+		</tr>
+		</table>
+
+		Сообщение:
+		<label>
+		<textarea name="message" style="display:block;width:400px;height:80px"></textarea>
+		</label>
+
+		<input type="button" name = "checkButton" value="Проверить">
+		
+	</form>
+	<script src = "form_checking.js"></script>
+</body>
+</head>
+</html>
